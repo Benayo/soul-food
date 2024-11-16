@@ -38,6 +38,7 @@ const ImagePicker = ({ label, name }) => {
           {!pickedImage && <p>No image picked yet.</p>}
           {pickedImage && (
             <Image
+              name="image"
               src={pickedImage}
               alt="The image selected by the user."
               fill
